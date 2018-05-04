@@ -7,7 +7,7 @@ This assignment, basically put, is a replication of the command `ls -l`, where f
 myls.c
 ### Compilation, Testing, and Known Issues
 ```
-Compile: gcc -std=c99 -Wall -w -Werror -o myls myls.c
+Compile: gcc -std=c99 -Wall -w -Werror -o myls myls.c myls.h
 Testing: ./myls [file]
 
 [file] can be nothing, a directory, or a specific filename.
